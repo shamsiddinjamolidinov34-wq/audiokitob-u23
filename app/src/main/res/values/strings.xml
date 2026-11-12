@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Audiokitob</string>
+    <string name="btn_cancel">Bekor qilish</string>
+    <string name="btn_open">Ochish</string>
+    <string name="btn_close">Yopish</string>
+    <string name="btn_delete">Oʻchirish</string>
+    <string name="ch_progress_name">Audiolashtirish jarayoni</string>
+    <string name="ch_result_name">Natija va xatolar</string>
+    <string name="main_intro">Matn yoki kitobni oʻzbekcha audioga (MP3) aylantiradi. Fayl tanlang yoki matn joylang. Ish fonda davom etadi — ilovani yopsangiz ham. Skanerlangan (rasmli) PDF kitoblar ham qabul qilinadi: ular avval Gemini yordamida matnga aylantiriladi (OCR).</string>
+    <string name="main_pick_file">Fayl tanlash (TXT, PDF, EPUB, DOCX, FB2, HTML, ODT)</string>
+    <string name="main_title_hint">Audio nomi (ixtiyoriy)</string>
+    <string name="main_title_label">Matn joylash uchun: audio nomi (ixtiyoriy)</string>
+    <string name="main_text_hint">Matnni shu yerga joylang</string>
+    <string name="main_text_label">Matn</string>
+    <string name="main_text_convert">Joylangan matnni audioga aylantirish</string>
+    <string name="main_settings">Sozlamalar (API kalitlar, ovoz)</string>
+    <string name="main_journal">Xato jurnali</string>
+    <string name="main_jobs_heading">Ishlar roʻyxati</string>
+    <string name="main_jobs_hint">Ishni tanlab ikki marta bosing — amallar menyusi ochiladi (davom ettirish, saqlash, ulashish, qolgan matn).</string>
+    <string name="main_jobs_empty">Hozircha hech narsa yoʻq.</string>
+    <string name="main_keys_none">API kalit kiritilmagan. «Sozlamalar»da kamida bitta Gemini API kalit kiriting.</string>
+    <string name="main_keys_count">Kiritilgan API kalitlar: %1$d ta (eng koʻpi %2$d).</string>
+    <string name="main_journal_none">Xato jurnali: xato yozilmagan.</string>
+    <string name="main_journal_errors">Xato jurnali: %1$d ta xato yozilgan. Oxirgisi: %2$s</string>
+    <string name="dlg_key_title">API kalit kerak</string>
+    <string name="dlg_key_msg">Avval Sozlamalarda kamida bitta Gemini API kalit kiriting. Sozlamalar ochilsinmi?</string>
+    <string name="dlg_delete_msg">«%1$s» va uning audio fayli oʻchiriladi. Avval audioni saqlab oling. Oʻchirilsinmi?</string>
+    <string name="toast_receiving">Fayl qabul qilinmoqda…</string>
+    <string name="toast_read_failed">Faylni oʻqib boʻlmadi: %1$s</string>
+    <string name="toast_paste_first">Avval matnni joylang.</string>
+    <string name="toast_text_empty">Matn boʻsh.</string>
+    <string name="toast_text_failed">Matnni qabul qilib boʻlmadi: %1$s</string>
+    <string name="err_open_file">Faylni ochib boʻlmadi</string>
+    <string name="err_create_file">Fayl yaratilmadi</string>
+    <string name="default_book_title">Kitob</string>
+    <string name="default_text_title">Matn</string>
+    <string name="st_new">Holat: boshlanmagan</string>
+    <string name="st_preparing">Holat: matn tayyorlanmoqda</string>
+    <string name="st_queued">Holat: navbatda</string>
+    <string name="st_running">Holat: audiolashtirilmoqda</string>
+    <string name="st_waiting">Holat: kutilmoqda</string>
+    <string name="st_paused">Holat: toʻxtatilgan</string>
+    <string name="st_limit">Holat: limit tugadi</string>
+    <string name="st_done">Holat: tayyor</string>
+    <string name="st_failed">Holat: xatolik</string>
+    <string name="st_audio_len">Audio uzunligi: %1$s (%2$s)</string>
+    <string name="st_position_label">Audiolashtirilgan joy: %1$s, %2$d / %3$d belgi</string>
+    <string name="st_position">Audiolashtirilgan joy: %1$d / %2$d belgi</string>
+    <string name="st_last_snippet">Oxirgi audiolashtirilgan matn: «%1$s»</string>
+    <string name="st_skipped">Oʻtkazib yuborilgan qismlar: %1$d ta</string>
+    <string name="st_remainder_ready">Audiolashtirilmagan qism TXT sifatida tayyor (Amallar → Qolgan matn).</string>
+    <string name="st_ocr_partial_ready">OCR bilan oʻqilgan matn TXT sifatida tayyor (Amallar → OCR matni).</string>
+    <string name="st_preview">Matn boshi: «%1$s»</string>
+    <string name="act_pause">Pauza</string>
+    <string name="act_resume">Davom ettirish</string>
+    <string name="act_start">Boshlash</string>
+    <string name="act_save_audio">Audioni saqlash (%1$s)</string>
+    <string name="act_share_audio">Audioni ulashish</string>
+    <string name="act_play_audio">Audioni ijro etish</string>
+    <string name="act_save_rest">Audiolashtirilmagan qolgan matnni saqlash (TXT)</string>
+    <string name="act_share_rest">Qolgan matnni ulashish (TXT)</string>
+    <string name="act_save_skipped">Oʻtkazib yuborilgan qismlarni saqlash (TXT)</string>
+    <string name="act_save_ocr">OCR bilan oʻqilgan matnni saqlash (TXT)</string>
+    <string name="act_share_ocr">OCR matnini ulashish (TXT)</string>
+    <string name="act_delete">Ishni oʻchirish</string>
+    <string name="toast_audio_missing">Audio fayl topilmadi.</string>
+    <string name="chooser_share">Ulashish</string>
+    <string name="toast_share_failed">Ulashib boʻlmadi: %1$s</string>
+    <string name="toast_no_player">Audioni ochadigan ilova topilmadi. Avval saqlab oling.</string>
+    <string name="toast_play_failed">Ijro etib boʻlmadi: %1$s</string>
+    <string name="toast_job_missing">Ish topilmadi.</string>
+    <string name="toast_no_rest">Audiolashtirilmagan matn qolmagan.</string>
+    <string name="toast_prepare_failed">Tayyorlab boʻlmadi: %1$s</string>
+    <string name="toast_no_skipped">Oʻtkazilgan qismlar topilmadi.</string>
+    <string name="toast_no_ocr">OCR matni topilmadi.</string>
+    <string name="toast_saved">Saqlandi.</string>
+    <string name="toast_save_failed">Saqlab boʻlmadi: %1$s</string>
+    <string name="skipped_file_suffix">oʻtkazilgan qismlar</string>
+    <string name="journal_title">Xato jurnali</string>
+    <string name="jr_share">Jurnalni ulashish (TXT)</string>
+    <string name="jr_save">Jurnalni TXT fayl sifatida saqlash</string>
+    <string name="jr_copy">Jurnal matnini nusxalash (bufer)</string>
+    <string name="jr_refresh">Yangilash</string>
+    <string name="jr_selftest">Jurnalni sinash (sinov yozuvlarini qoʻshish)</string>
+    <string name="jr_clear">Jurnalni tozalash</string>
+    <string name="jr_heading">Jurnal (oxirgi qismi)</string>
+    <string name="jr_none">Xato yozilmagan.</string>
+    <string name="jr_count">Yozilgan xatolar: %1$d ta.</string>
+    <string name="jr_last">Oxirgi xatolar:</string>
+    <string name="jr_note">Jurnal API kalitlarni oʻz ichiga olmaydi (maskalanadi). Dasturchiga yuborish uchun «Jurnalni ulashish»ni bosing.</string>
+    <string name="jr_empty">Jurnal boʻsh.</string>
+    <string name="jr_toast_prepare_failed">Jurnal faylini tayyorlab boʻlmadi.</string>
+    <string name="jr_chooser">Jurnalni ulashish</string>
+    <string name="jr_toast_saved">Jurnal saqlandi.</string>
+    <string name="jr_toast_copied">Jurnalning oxirgi qismi nusxalandi.</string>
+    <string name="jr_toast_copy_failed">Nusxalab boʻlmadi.</string>
+    <string name="jr_toast_selftest">Sinov yozuvlari qoʻshildi — jurnal ishlayapti.</string>
+    <string name="jr_clear_msg">Barcha jurnal yozuvlari oʻchiriladi. Davom etasizmi?</string>
+    <string name="jr_clear_btn">Tozalash</string>
+    <string name="jr_clip_label">Audiokitob jurnali</string>
+    <string name="settings_title">Sozlamalar</string>
+    <string name="settings_note">Muhim: bir nechta kalit qoʻshsangiz, ularni har xil Google loyihalarida (yoki hisoblarida) yarating — limit kalit boʻyicha emas, loyiha boʻyicha hisoblanadi. Kalitlar faqat shu qurilmada saqlanadi.</string>
+    <string name="settings_key_label">API kalit %1$d</string>
+    <string name="settings_key_paste">Kalit %1$d ni buferdan joylash</string>
+    <string name="settings_check_keys">Kalitlarni tekshirish</string>
+    <string name="settings_voice">Ovoz</string>
+    <string name="settings_load_voices">Oʻzbek ovozlarini yuklash (Gemini ovoz kutubxonasi)</string>
+    <string name="settings_model">Asosiy TTS modeli</string>
+    <string name="settings_backup">Zaxira model (asosiy modelning limiti tugasa ishlatiladi; boʻsh = oʻchiq)</string>
+    <string name="settings_backup_hint">boʻsh qoldirish mumkin</string>
+    <string name="settings_chunk">Boʻlak hajmi (belgi, 800–6000). Katta boʻlak — kamroq soʻrov, lekin xato ehtimoli yuqoriroq</string>
+    <string name="settings_style">Oʻqish uslubi (ixtiyoriy; boʻsh qoldirsangiz matn aynan oʻqiladi, hech narsa qoʻshilmaydi)</string>
+    <string name="settings_optional">ixtiyoriy</string>
+    <string name="settings_battery">Batareya tejash sozlamalari (fonda uzilmasligi uchun)</string>
+    <string name="settings_save_back">Saqlash va ortga qaytish</string>
+    <string name="settings_voice_saved">%1$s (saqlangan)</string>
+    <string name="settings_need_key">Avval kamida bitta API kalit kiriting.</string>
+    <string name="settings_voices_loading">Ovozlar yuklanmoqda…</string>
+    <string name="settings_voices_none">Oʻzbek tili uchun maxsus ovoz topilmadi. Standart ovozlardan foydalaning (ular oʻzbekcha matnni oʻqiy oladi).</string>
+    <string name="settings_voices_loaded">%1$d ta oʻzbekcha ovoz yuklandi (★ belgisi bilan roʻyxat boshida).</string>
+    <string name="settings_voices_failed">Ovozlarni yuklab boʻlmadi: %1$s</string>
+    <string name="settings_clip_empty">Bufer boʻsh.</string>
+    <string name="settings_pasted">Joylandi.</string>
+    <string name="settings_paste_failed">Buferdan joylab boʻlmadi.</string>
+    <string name="settings_check_need_key">Tekshirish uchun kamida bitta kalit kiriting.</string>
+    <string name="settings_checking">Tekshirilmoqda…</string>
+    <string name="settings_none_found">topilmadi</string>
+    <string name="settings_check_ok">Kalit %1$d: ishlaydi. TTS modellar: %2$s. OCR (rasm oʻqish) modellari: %3$s</string>
+    <string name="settings_check_net">Kalit %1$d: tekshirib boʻlmadi (tarmoq): %2$s</string>
+    <string name="settings_check_bad">Kalit %1$d: yaroqsiz yoki ruxsat yoʻq (HTTP %2$d): %3$s</string>
+    <string name="settings_open_failed">Sozlamalarni ochib boʻlmadi.</string>
+    <string name="settings_ocr_heading">Skanerlangan PDF (OCR)</string>
+    <string name="settings_ocr_note">Rasmli (skanerlangan) PDF sahifalari Gemini Vision yordamida matnga aylantiriladi. Sahifalar guruhlab yuboriladi (odatda 4 tadan); tayyor raqamli matni bor sahifalar yuborilmaydi — limit tejaladi. Sahifa rasmlari Google serveriga yuboriladi.</string>
+    <string name="settings_ocr_enable">Skanerlangan PDF sahifalarini AI (OCR) bilan oʻqish</string>
+    <string name="settings_ocr_model">OCR modeli (rasm oʻqiydigan Gemini modeli)</string>
+    <string name="settings_ocr_backup">OCR zaxira modeli (asosiysining limiti tugasa ishlatiladi; boʻsh = oʻchiq)</string>
+    <string name="settings_ocr_pages">Bir soʻrovdagi sahifalar soni (1–8; tavsiya: 4)</string>
+    <string name="msg_start_failed">Fon xizmatini ishga tushirib boʻlmadi (%1$s). Ilovani ochib «Davom ettirish»ni bosing.</string>
+    <string name="msg_queued">Navbatda.</string>
+    <string name="msg_unqueued">Navbatdan olindi (toʻxtatildi).</string>
+    <string name="msg_stopped">Toʻxtatildi.</string>
+    <string name="msg_preparing">Matn tayyorlanmoqda…</string>
+    <string name="notif_working">Audiolashtirish…</string>
+    <string name="msg_orig_missing">Asl fayl topilmadi. Faylni qayta tanlang.</string>
+    <string name="msg_read_failed_x">Faylni oʻqib boʻlmadi: %1$s</string>
+    <string name="msg_save_text_failed">Matnni saqlab boʻlmadi (xotira yetarlimi?): %1$s</string>
+    <string name="msg_audio_prev_missing">Oldingi audio fayl topilmadi; faqat yangi qism yoziladi.</string>
+    <string name="msg_text_read_failed">Matn faylini oʻqib boʻlmadi: %1$s</string>
+    <string name="msg_no_keys">API kalit kiritilmagan. Sozlamalarda kamida bitta kalit kiriting.</string>
+    <string name="msg_starting">Boshlanmoqda…</string>
+    <string name="msg_chunk_skipped">Bitta qism audiolashtirilmadi va oʻtkazib yuborildi.</string>
+    <string name="msg_3_skipped">Ketma-ket 3 ta qism audiolashtirilmadi — xizmatda yoki matnda muammo boʻlishi mumkin. Xato jurnaliga qarang; keyin «Davom ettirish»ni bosing.</string>
+    <string name="msg_no_model">Ishlaydigan TTS modeli topilmadi. Sozlamalarda model nomini tekshiring.</string>
+    <string name="msg_all_keys_dead">Barcha API kalitlar yaroqsiz. %1$s</string>
+    <string name="msg_text">%1$s</string>
+    <string name="msg_wait_internet">Internet yoʻq — ulanish kutilmoqda…</string>
+    <string name="msg_wait_limit">Limit kutilmoqda: taxminan %1$d soniya…</string>
+    <string name="msg_synth_running">Audiolashtirilmoqda (kalit %1$d)…</string>
+    <string name="msg_region">Google Gemini API bu joylashuvda ishlamayapti (%1$s). Boshqa tarmoq yoki pullik rejim kerak boʻlishi mumkin.</string>
+    <string name="msg_net_repeat">Tarmoq xatosi ketma-ket takrorlandi (%1$s). Internetni tekshirib «Davom ettirish»ni bosing.</string>
+    <string name="msg_net_retry">Tarmoq xatosi, qayta uriniladi (%1$d/6)…</string>
+    <string name="msg_mp3_fallback">MP3 kodeki ishlamadi — audio WAV formatida saqlanmoqda.</string>
+    <string name="msg_job_deleted">Ish oʻchirilgan.</string>
+    <string name="msg_mp3_failed">MP3 kodlash ishlamadi (%1$s). Jurnalga qarang.</string>
+    <string name="msg_audio_write_failed">Audio faylga yozib boʻlmadi: %1$s</string>
+    <string name="msg_done">Hammasi audiolashtirildi.</string>
+    <string name="msg_done_skipped">Hammasi audiolashtirildi. Oʻtkazib yuborilgan qismlar: %1$d ta (TXT sifatida olish mumkin).</string>
+    <string name="msg_unexpected">Kutilmagan xato: %1$s. Jurnalga qarang.</string>
+    <string name="msg_stale">Ilova toʻxtab qolgan edi. «Davom ettirish» tugmasini bosing.</string>
+    <string name="notif_progress">%1$d%% — %2$s audio</string>
+    <string name="notif_done_title">Tayyor: %1$s</string>
+    <string name="notif_done_text">Audio tayyor (%1$s). Saqlash uchun ilovani oching.</string>
+    <string name="notif_done_text_skipped">Audio tayyor (%1$s). Saqlash uchun ilovani oching. Oʻtkazib yuborilgan qismlar: %2$d ta (TXT sifatida olish mumkin).</string>
+    <string name="notif_failed_title">Xatolik: %1$s</string>
+    <string name="notif_limit_title">Limit tugadi: %1$s</string>
+    <string name="notif_stopped_title">Toʻxtadi: %1$s</string>
+    <string name="err_rtf">RTF format hozircha qoʻllab-quvvatlanmaydi. Faylni DOCX yoki TXT ga oʻgirib qayta yuboring.</string>
+    <string name="err_doc">Eski DOC format qoʻllab-quvvatlanmaydi. Faylni DOCX yoki TXT ga oʻgirib qayta yuboring.</string>
+    <string name="err_mobi">MOBI/AZW format qoʻllab-quvvatlanmaydi. Faylni EPUB yoki TXT ga oʻgirib qayta yuboring.</string>
+    <string name="err_zip">ZIP arxiv ichida tanish format topilmadi. Arxivni ochib, ichidagi faylni yuboring.</string>
+    <string name="err_no_text">Faylda oʻqiladigan matn topilmadi.</string>
+    <string name="err_binary">Fayl matn emas (ikkilik fayl) — qoʻllab-quvvatlanmaydi.</string>
+    <string name="err_pdf_password">PDF parol bilan himoyalangan — parolsiz nusxasini yuboring.</string>
+    <string name="err_pdf_open">PDF faylni ochib boʻlmadi: %1$s</string>
+    <string name="err_pdf_empty">PDFda sahifalar topilmadi.</string>
+    <string name="err_pdf_scanned">PDFda matn topilmadi. Bu skanerlangan (rasmli) PDF. Uni oʻqish uchun Sozlamalarda «Skanerlangan PDF sahifalarini AI (OCR) bilan oʻqish» yoqilgan boʻlishi kerak.</string>
+    <string name="err_pdf_no_text_ocr">Hech bir sahifadan matn topilmadi: AI (OCR) ham matn ajrata olmadi. Sahifalar boʻsh yoki oʻqib boʻlmaydigan boʻlishi mumkin. Xato jurnaliga qarang.</string>
+    <string name="warn_pdf_garbled">Diqqat: PDF matni buzilgan koʻrinadi (shrift kodirovkasi muammosi). Boshini eshitib tekshirib koʻring.</string>
+    <string name="warn_pdf_bad_pages">Diqqat: PDFning %1$d ta sahifasi oʻqilmadi.</string>
+    <string name="err_epub_container">EPUB tuzilishi notoʻgʻri (container.xml yoʻq).</string>
+    <string name="err_epub_opf_path">EPUB tuzilishi notoʻgʻri (OPF yoʻli topilmadi).</string>
+    <string name="err_epub_opf_missing">EPUB tuzilishi notoʻgʻri (OPF fayl yoʻq).</string>
+    <string name="err_epub_spine">EPUB ichida oʻqish tartibi (spine) topilmadi.</string>
+    <string name="err_docx_xml">DOCX ichida matn (word/document.xml) topilmadi.</string>
+    <string name="err_odt_xml">ODT ichida content.xml topilmadi.</string>
+    <string name="err_fb2_missing">Arxiv ichida FB2 topilmadi.</string>
+    <string name="prog_pdf">PDF oʻqilmoqda: %1$d / %2$d sahifa</string>
+    <string name="prog_epub">EPUB oʻqilmoqda: %1$d / %2$d boʻlim</string>
+    <string name="mark_page">sahifa %1$d / %2$d</string>
+    <string name="mark_pages">sahifa %1$d–%2$d / %3$d</string>
+    <string name="mark_section">boʻlim %1$d / %2$d</string>
+    <string name="skip_line_label">[%1$s, belgi %2$d] sabab: %3$s</string>
+    <string name="skip_line">[belgi %1$d] sabab: %2$s</string>
+    <string name="skip_ocr_line">[sahifa %1$d] AI (OCR) bilan oʻqib boʻlmadi. Sabab: %2$s</string>
+    <string name="msg_ocr_progress">AI OCR ishlamoqda: %1$d–%2$d / %3$d sahifalar…</string>
+    <string name="msg_ocr_progress_one">AI OCR ishlamoqda: %1$d / %2$d sahifa…</string>
+    <string name="msg_ocr_interrupted">%1$s OCR: %2$d / %3$d skaner sahifa oʻqildi va saqlandi. «Davom ettirish» bosilsa, qolgani shu joydan davom etadi.</string>
+    <string name="msg_ocr_no_model">Rasm oʻqish (OCR) uchun ishlaydigan model topilmadi. Sozlamalarda OCR modelini tekshiring.</string>
+    <string name="msg_ocr_render_failed">PDF sahifalarini rasmga aylantirib boʻlmadi: %1$s</string>
+    <string name="msg_ocr_unreadable">Diqqat: %1$d ta sahifani oʻqib boʻlmadi (sahifalar: %2$s). Ular matnga kiritilmadi.</string>
+    <string name="msg_ocr_3_bad">Ketma-ket 3 ta sahifa oʻqilmadi — xizmatda yoki hujjatda muammo boʻlishi mumkin. Xato jurnaliga qarang; keyin «Davom ettirish»ni bosing.</string>
+    <string name="msg_ocr_server_busy">AI serveri band (HTTP %1$d): asosiy va zaxira model bir necha urinishdan keyin ham javob bermadi. Bu sahifalarda matn yoʻq degani emas.</string>
+    <string name="msg_ocr_none_read">AI (OCR) birorta sahifani ham oʻqiy olmadi (server, tarmoq, limit yoki boshqa xato; sababi xato jurnalida). Bu sahifalarda matn yoʻq degani emas.</string>
+    <string name="err_pdf_ocr_unread">AI (OCR) bu sahifalarni oʻqiy olmadi: %1$s. Bu matn yoʻq degani emas — xato jurnaliga qarang va keyinroq qayta urinib koʻring.</string>
+    <string name="limit_no_keys">API kalit kiritilmagan.</string>
+    <string name="limit_head_tts">Mavjud kalitlar bilan audiolashtirish imkoni tugadi.</string>
+    <string name="limit_head_ocr">Mavjud kalitlar bilan sahifalarni oʻqish (OCR) imkoni tugadi.</string>
+    <string name="limit_key">Kalit %1$d: %2$s</string>
+    <string name="limit_key_dead">yaroqsiz.</string>
+    <string name="limit_key_day">bugungi limit tugagan.</string>
+    <string name="limit_key_busy">vaqtincha band yoki ruxsat yoʻq.</string>
+    <string name="limit_reset">Kunlik limit Tinch okeani vaqti (Los-Anjeles) yarim tunida tiklanadi — qurilma vaqti bilan taxminan %1$s.</string>
+    <string name="limit_tail_tts">Shu yergacha tayyor audio saqlandi; qolgan matn TXT sifatida tayyor.</string>
+    <plurals name="dur_hours">
+        <item quantity="other">%1$d soat</item>
+    </plurals>
+    <plurals name="dur_minutes">
+        <item quantity="other">%1$d daqiqa</item>
+    </plurals>
+    <plurals name="dur_seconds">
+        <item quantity="other">%1$d soniya</item>
+    </plurals>
+    <string-array name="voice_traits">
+        <item>yorqin</item>
+        <item>quvnoq</item>
+        <item>maʼlumotli</item>
+        <item>qatʼiy</item>
+        <item>hayajonli</item>
+        <item>yosh</item>
+        <item>qatʼiy</item>
+        <item>yengil</item>
+        <item>xotirjam</item>
+        <item>yorqin</item>
+        <item>nafasli</item>
+        <item>ravshan</item>
+        <item>xotirjam</item>
+        <item>silliq</item>
+        <item>silliq</item>
+        <item>ravshan</item>
+        <item>xirillagan</item>
+        <item>maʼlumotli</item>
+        <item>quvnoq</item>
+        <item>yumshoq</item>
+        <item>qatʼiy</item>
+        <item>bir tekis</item>
+        <item>yetuk</item>
+        <item>dadil</item>
+        <item>doʻstona</item>
+        <item>oddiy</item>
+        <item>muloyim</item>
+        <item>jonli</item>
+        <item>bilimdon</item>
+        <item>iliq</item>
+    </string-array>
+</resources>

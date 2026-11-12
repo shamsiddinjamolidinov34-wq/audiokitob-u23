@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_open">Открыть</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="ch_progress_name">Ход озвучивания</string>
+    <string name="ch_result_name">Результаты и ошибки</string>
+    <string name="main_intro">Превращает текст или книгу в узбекское аудио (MP3). Выберите файл или вставьте текст. Работа продолжается в фоне, даже если закрыть приложение. Принимаются и отсканированные (графические) PDF-книги: сначала они переводятся в текст с помощью Gemini (OCR).</string>
+    <string name="main_pick_file">Выбрать файл (TXT, PDF, EPUB, DOCX, FB2, HTML, ODT)</string>
+    <string name="main_title_hint">Название аудио (необязательно)</string>
+    <string name="main_title_label">Для вставленного текста: название аудио (необязательно)</string>
+    <string name="main_text_hint">Вставьте текст сюда</string>
+    <string name="main_text_label">Текст</string>
+    <string name="main_text_convert">Преобразовать вставленный текст в аудио</string>
+    <string name="main_settings">Настройки (API-ключи, голос)</string>
+    <string name="main_journal">Журнал ошибок</string>
+    <string name="main_jobs_heading">Список заданий</string>
+    <string name="main_jobs_hint">Выберите задание и нажмите дважды — откроется меню действий (продолжить, сохранить, поделиться, оставшийся текст).</string>
+    <string name="main_jobs_empty">Пока ничего нет.</string>
+    <string name="main_keys_none">API-ключ не введён. Введите хотя бы один ключ Gemini API в «Настройках».</string>
+    <string name="main_keys_count">Введено API-ключей: %1$d (максимум %2$d).</string>
+    <string name="main_journal_none">Журнал ошибок: ошибок нет.</string>
+    <string name="main_journal_errors">Журнал ошибок: записано ошибок: %1$d. Последняя: %2$s</string>
+    <string name="dlg_key_title">Нужен API-ключ</string>
+    <string name="dlg_key_msg">Сначала введите в настройках хотя бы один ключ Gemini API. Открыть настройки?</string>
+    <string name="dlg_delete_msg">«%1$s» и его аудиофайл будут удалены. Сначала сохраните аудио. Удалить?</string>
+    <string name="toast_receiving">Файл принимается…</string>
+    <string name="toast_read_failed">Не удалось прочитать файл: %1$s</string>
+    <string name="toast_paste_first">Сначала вставьте текст.</string>
+    <string name="toast_text_empty">Текст пуст.</string>
+    <string name="toast_text_failed">Не удалось принять текст: %1$s</string>
+    <string name="err_open_file">Не удалось открыть файл</string>
+    <string name="err_create_file">Файл не создан</string>
+    <string name="default_book_title">Книга</string>
+    <string name="default_text_title">Текст</string>
+    <string name="st_new">Состояние: не начато</string>
+    <string name="st_preparing">Состояние: подготовка текста</string>
+    <string name="st_queued">Состояние: в очереди</string>
+    <string name="st_running">Состояние: озвучивание</string>
+    <string name="st_waiting">Состояние: ожидание</string>
+    <string name="st_paused">Состояние: приостановлено</string>
+    <string name="st_limit">Состояние: лимит исчерпан</string>
+    <string name="st_done">Состояние: готово</string>
+    <string name="st_failed">Состояние: ошибка</string>
+    <string name="st_audio_len">Длительность аудио: %1$s (%2$s)</string>
+    <string name="st_position_label">Озвучено до: %1$s, %2$d / %3$d символов</string>
+    <string name="st_position">Озвучено: %1$d / %2$d символов</string>
+    <string name="st_last_snippet">Последний озвученный текст: «%1$s»</string>
+    <string name="st_skipped">Пропущено фрагментов: %1$d</string>
+    <string name="st_remainder_ready">Неозвученная часть готова в виде TXT (Действия → Оставшийся текст).</string>
+    <string name="st_ocr_partial_ready">Распознанный к этому моменту текст готов в виде TXT (Действия → Текст OCR).</string>
+    <string name="st_preview">Начало текста: «%1$s»</string>
+    <string name="act_pause">Пауза</string>
+    <string name="act_resume">Продолжить</string>
+    <string name="act_start">Начать</string>
+    <string name="act_save_audio">Сохранить аудио (%1$s)</string>
+    <string name="act_share_audio">Поделиться аудио</string>
+    <string name="act_play_audio">Воспроизвести аудио</string>
+    <string name="act_save_rest">Сохранить неозвученный остаток текста (TXT)</string>
+    <string name="act_share_rest">Поделиться оставшимся текстом (TXT)</string>
+    <string name="act_save_skipped">Сохранить пропущенные фрагменты (TXT)</string>
+    <string name="act_save_ocr">Сохранить распознанный текст OCR (TXT)</string>
+    <string name="act_share_ocr">Поделиться текстом OCR (TXT)</string>
+    <string name="act_delete">Удалить задание</string>
+    <string name="toast_audio_missing">Аудиофайл не найден.</string>
+    <string name="chooser_share">Поделиться</string>
+    <string name="toast_share_failed">Не удалось поделиться: %1$s</string>
+    <string name="toast_no_player">Не найдено приложение для воспроизведения. Сначала сохраните файл.</string>
+    <string name="toast_play_failed">Не удалось воспроизвести: %1$s</string>
+    <string name="toast_job_missing">Задание не найдено.</string>
+    <string name="toast_no_rest">Неозвученного текста не осталось.</string>
+    <string name="toast_prepare_failed">Не удалось подготовить: %1$s</string>
+    <string name="toast_no_skipped">Пропущенные фрагменты не найдены.</string>
+    <string name="toast_no_ocr">Текст OCR не найден.</string>
+    <string name="toast_saved">Сохранено.</string>
+    <string name="toast_save_failed">Не удалось сохранить: %1$s</string>
+    <string name="skipped_file_suffix">пропущенные фрагменты</string>
+    <string name="journal_title">Журнал ошибок</string>
+    <string name="jr_share">Поделиться журналом (TXT)</string>
+    <string name="jr_save">Сохранить журнал как TXT-файл</string>
+    <string name="jr_copy">Копировать текст журнала (буфер обмена)</string>
+    <string name="jr_refresh">Обновить</string>
+    <string name="jr_selftest">Проверить журнал (добавить тестовые записи)</string>
+    <string name="jr_clear">Очистить журнал</string>
+    <string name="jr_heading">Журнал (последняя часть)</string>
+    <string name="jr_none">Ошибок не записано.</string>
+    <string name="jr_count">Записано ошибок: %1$d.</string>
+    <string name="jr_last">Последние ошибки:</string>
+    <string name="jr_note">В журнале нет API-ключей (они маскируются). Чтобы отправить его разработчику, нажмите «Поделиться журналом».</string>
+    <string name="jr_empty">Журнал пуст.</string>
+    <string name="jr_toast_prepare_failed">Не удалось подготовить файл журнала.</string>
+    <string name="jr_chooser">Поделиться журналом</string>
+    <string name="jr_toast_saved">Журнал сохранён.</string>
+    <string name="jr_toast_copied">Последняя часть журнала скопирована.</string>
+    <string name="jr_toast_copy_failed">Не удалось скопировать.</string>
+    <string name="jr_toast_selftest">Тестовые записи добавлены — журнал работает.</string>
+    <string name="jr_clear_msg">Все записи журнала будут удалены. Продолжить?</string>
+    <string name="jr_clear_btn">Очистить</string>
+    <string name="jr_clip_label">Журнал Audiokitob</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_note">Важно: если добавляете несколько ключей, создавайте их в разных проектах (или аккаунтах) Google — лимит считается по проекту, а не по ключу. Ключи хранятся только на этом устройстве.</string>
+    <string name="settings_key_label">API-ключ %1$d</string>
+    <string name="settings_key_paste">Вставить ключ %1$d из буфера обмена</string>
+    <string name="settings_check_keys">Проверить ключи</string>
+    <string name="settings_voice">Голос</string>
+    <string name="settings_load_voices">Загрузить узбекские голоса (библиотека голосов Gemini)</string>
+    <string name="settings_model">Основная модель TTS</string>
+    <string name="settings_backup">Резервная модель (используется, когда лимит основной исчерпан; пусто = выключена)</string>
+    <string name="settings_backup_hint">можно оставить пустым</string>
+    <string name="settings_chunk">Размер фрагмента (символов, 800–6000). Больше фрагмент — меньше запросов, но выше вероятность ошибок</string>
+    <string name="settings_style">Стиль чтения (необязательно; если оставить пустым, текст читается дословно, ничего не добавляется)</string>
+    <string name="settings_optional">необязательно</string>
+    <string name="settings_battery">Настройки экономии заряда (чтобы работа не прерывалась в фоне)</string>
+    <string name="settings_save_back">Сохранить и вернуться</string>
+    <string name="settings_voice_saved">%1$s (сохранён)</string>
+    <string name="settings_need_key">Сначала введите хотя бы один API-ключ.</string>
+    <string name="settings_voices_loading">Загрузка голосов…</string>
+    <string name="settings_voices_none">Специальных голосов для узбекского языка не найдено. Используйте стандартные голоса (они умеют читать узбекский текст).</string>
+    <string name="settings_voices_loaded">Загружено узбекских голосов: %1$d (отмечены ★ в начале списка).</string>
+    <string name="settings_voices_failed">Не удалось загрузить голоса: %1$s</string>
+    <string name="settings_clip_empty">Буфер обмена пуст.</string>
+    <string name="settings_pasted">Вставлено.</string>
+    <string name="settings_paste_failed">Не удалось вставить из буфера обмена.</string>
+    <string name="settings_check_need_key">Введите хотя бы один ключ для проверки.</string>
+    <string name="settings_checking">Проверка…</string>
+    <string name="settings_none_found">не найдено</string>
+    <string name="settings_check_ok">Ключ %1$d: работает. Модели TTS: %2$s. Модели OCR (чтение изображений): %3$s</string>
+    <string name="settings_check_net">Ключ %1$d: не удалось проверить (сеть): %2$s</string>
+    <string name="settings_check_bad">Ключ %1$d: недействителен или нет доступа (HTTP %2$d): %3$s</string>
+    <string name="settings_open_failed">Не удалось открыть настройки.</string>
+    <string name="settings_ocr_heading">Сканированные PDF (OCR)</string>
+    <string name="settings_ocr_note">Страницы графических (сканированных) PDF преобразуются в текст с помощью Gemini Vision. Страницы отправляются группами (по умолчанию по 4); страницы с готовым цифровым текстом не отправляются, что экономит лимит. Изображения страниц отправляются на серверы Google.</string>
+    <string name="settings_ocr_enable">Читать страницы сканированных PDF с помощью ИИ (OCR)</string>
+    <string name="settings_ocr_model">Модель OCR (модель Gemini, читающая изображения)</string>
+    <string name="settings_ocr_backup">Резервная модель OCR (используется, когда лимит основной исчерпан; пусто = выключена)</string>
+    <string name="settings_ocr_pages">Страниц в одном запросе (1–8; рекомендуется 4)</string>
+    <string name="msg_start_failed">Не удалось запустить фоновую службу (%1$s). Откройте приложение и нажмите «Продолжить».</string>
+    <string name="msg_queued">В очереди.</string>
+    <string name="msg_unqueued">Убрано из очереди (приостановлено).</string>
+    <string name="msg_stopped">Остановлено.</string>
+    <string name="msg_preparing">Подготовка текста…</string>
+    <string name="notif_working">Озвучивание…</string>
+    <string name="msg_orig_missing">Исходный файл не найден. Выберите файл заново.</string>
+    <string name="msg_read_failed_x">Не удалось прочитать файл: %1$s</string>
+    <string name="msg_save_text_failed">Не удалось сохранить текст (достаточно ли памяти?): %1$s</string>
+    <string name="msg_audio_prev_missing">Предыдущий аудиофайл не найден; будет записана только новая часть.</string>
+    <string name="msg_text_read_failed">Не удалось прочитать файл с текстом: %1$s</string>
+    <string name="msg_no_keys">API-ключ не введён. Введите в настройках хотя бы один ключ.</string>
+    <string name="msg_starting">Запуск…</string>
+    <string name="msg_chunk_skipped">Один фрагмент не удалось озвучить, он пропущен.</string>
+    <string name="msg_3_skipped">Три фрагмента подряд не удалось озвучить — возможна проблема в сервисе или в тексте. Посмотрите журнал ошибок, затем нажмите «Продолжить».</string>
+    <string name="msg_no_model">Рабочая модель TTS не найдена. Проверьте название модели в настройках.</string>
+    <string name="msg_all_keys_dead">Все API-ключи недействительны. %1$s</string>
+    <string name="msg_text">%1$s</string>
+    <string name="msg_wait_internet">Нет интернета — ожидание соединения…</string>
+    <string name="msg_wait_limit">Ожидание лимита: примерно %1$d с…</string>
+    <string name="msg_synth_running">Озвучивание (ключ %1$d)…</string>
+    <string name="msg_region">Google Gemini API не работает в этом регионе (%1$s). Может потребоваться другая сеть или платный тариф.</string>
+    <string name="msg_net_repeat">Ошибка сети повторялась подряд (%1$s). Проверьте интернет и нажмите «Продолжить».</string>
+    <string name="msg_net_retry">Ошибка сети, повторная попытка (%1$d/6)…</string>
+    <string name="msg_mp3_fallback">Кодек MP3 не сработал — аудио сохраняется в формате WAV.</string>
+    <string name="msg_job_deleted">Задание удалено.</string>
+    <string name="msg_mp3_failed">Кодирование MP3 не удалось (%1$s). Смотрите журнал.</string>
+    <string name="msg_audio_write_failed">Не удалось записать в аудиофайл: %1$s</string>
+    <string name="msg_done">Всё озвучено.</string>
+    <string name="msg_done_skipped">Всё озвучено. Пропущено фрагментов: %1$d (их можно получить в виде TXT).</string>
+    <string name="msg_unexpected">Непредвиденная ошибка: %1$s. Смотрите журнал.</string>
+    <string name="msg_stale">Приложение было остановлено. Нажмите «Продолжить».</string>
+    <string name="notif_progress">%1$d%% — аудио %2$s</string>
+    <string name="notif_done_title">Готово: %1$s</string>
+    <string name="notif_done_text">Аудио готово (%1$s). Откройте приложение, чтобы сохранить.</string>
+    <string name="notif_done_text_skipped">Аудио готово (%1$s). Откройте приложение, чтобы сохранить. Пропущено фрагментов: %2$d (их можно получить в виде TXT).</string>
+    <string name="notif_failed_title">Ошибка: %1$s</string>
+    <string name="notif_limit_title">Лимит исчерпан: %1$s</string>
+    <string name="notif_stopped_title">Остановлено: %1$s</string>
+    <string name="err_rtf">Формат RTF пока не поддерживается. Преобразуйте файл в DOCX или TXT и отправьте снова.</string>
+    <string name="err_doc">Старый формат DOC не поддерживается. Преобразуйте файл в DOCX или TXT и отправьте снова.</string>
+    <string name="err_mobi">Формат MOBI/AZW не поддерживается. Преобразуйте файл в EPUB или TXT и отправьте снова.</string>
+    <string name="err_zip">В ZIP-архиве не найден знакомый формат. Распакуйте архив и отправьте файл из него.</string>
+    <string name="err_no_text">В файле не найден читаемый текст.</string>
+    <string name="err_binary">Файл не является текстовым (двоичный файл) — не поддерживается.</string>
+    <string name="err_pdf_password">PDF защищён паролем — отправьте копию без пароля.</string>
+    <string name="err_pdf_open">Не удалось открыть PDF-файл: %1$s</string>
+    <string name="err_pdf_empty">В PDF не найдено страниц.</string>
+    <string name="err_pdf_scanned">В PDF не найден текст. Это сканированный (графический) PDF. Чтобы его прочитать, в настройках должна быть включена опция «Читать страницы сканированных PDF с помощью ИИ (OCR)».</string>
+    <string name="err_pdf_no_text_ocr">Ни на одной странице не найден текст: ИИ (OCR) тоже ничего не извлёк. Страницы могут быть пустыми или нечитаемыми. Смотрите журнал ошибок.</string>
+    <string name="warn_pdf_garbled">Внимание: текст PDF выглядит испорченным (проблема кодировки шрифта). Проверьте, прослушав начало.</string>
+    <string name="warn_pdf_bad_pages">Внимание: не удалось прочитать страниц PDF: %1$d.</string>
+    <string name="err_epub_container">Неверная структура EPUB (нет container.xml).</string>
+    <string name="err_epub_opf_path">Неверная структура EPUB (не найден путь к OPF).</string>
+    <string name="err_epub_opf_missing">Неверная структура EPUB (нет файла OPF).</string>
+    <string name="err_epub_spine">В EPUB не найден порядок чтения (spine).</string>
+    <string name="err_docx_xml">В DOCX не найден текст (word/document.xml).</string>
+    <string name="err_odt_xml">В ODT не найден content.xml.</string>
+    <string name="err_fb2_missing">В архиве не найден файл FB2.</string>
+    <string name="prog_pdf">Чтение PDF: страница %1$d из %2$d</string>
+    <string name="prog_epub">Чтение EPUB: раздел %1$d из %2$d</string>
+    <string name="mark_page">стр. %1$d / %2$d</string>
+    <string name="mark_pages">стр. %1$d–%2$d / %3$d</string>
+    <string name="mark_section">раздел %1$d / %2$d</string>
+    <string name="skip_line_label">[%1$s, символ %2$d] причина: %3$s</string>
+    <string name="skip_line">[символ %1$d] причина: %2$s</string>
+    <string name="skip_ocr_line">[стр. %1$d] не удалось прочитать с помощью ИИ (OCR). Причина: %2$s</string>
+    <string name="msg_ocr_progress">ИИ-распознавание (OCR): страницы %1$d–%2$d из %3$d…</string>
+    <string name="msg_ocr_progress_one">ИИ-распознавание (OCR): страница %1$d из %2$d…</string>
+    <string name="msg_ocr_interrupted">%1$s OCR: прочитано и сохранено сканированных страниц: %2$d из %3$d. После нажатия «Продолжить» остальное продолжится отсюда.</string>
+    <string name="msg_ocr_no_model">Рабочая модель для чтения изображений (OCR) не найдена. Проверьте модель OCR в настройках.</string>
+    <string name="msg_ocr_render_failed">Не удалось преобразовать страницы PDF в изображения: %1$s</string>
+    <string name="msg_ocr_unreadable">Внимание: не удалось прочитать страниц: %1$d (страницы: %2$s). В текст они не включены.</string>
+    <string name="msg_ocr_3_bad">Три страницы подряд не удалось прочитать — возможна проблема в сервисе или в документе. Посмотрите журнал ошибок, затем нажмите «Продолжить».</string>
+    <string name="msg_ocr_server_busy">Сервер ИИ перегружен (HTTP %1$d): основная и резервная модели не ответили после нескольких попыток. Это не значит, что на страницах нет текста.</string>
+    <string name="msg_ocr_none_read">ИИ (OCR) не смог прочитать ни одной страницы (ошибка сервера, сети, лимита или другая; причина — в журнале ошибок). Это не значит, что на страницах нет текста.</string>
+    <string name="err_pdf_ocr_unread">ИИ (OCR) не смог прочитать эти страницы: %1$s. Это не значит, что на них нет текста — смотрите журнал ошибок и попробуйте позже.</string>
+    <string name="limit_no_keys">API-ключ не введён.</string>
+    <string name="limit_head_tts">С имеющимися ключами озвучивание больше невозможно.</string>
+    <string name="limit_head_ocr">С имеющимися ключами чтение страниц (OCR) больше невозможно.</string>
+    <string name="limit_key">Ключ %1$d: %2$s</string>
+    <string name="limit_key_dead">недействителен.</string>
+    <string name="limit_key_day">сегодняшний лимит исчерпан.</string>
+    <string name="limit_key_busy">временно занят или нет доступа.</string>
+    <string name="limit_reset">Дневной лимит обновляется в полночь по тихоокеанскому времени (Лос-Анджелес) — по времени устройства примерно в %1$s.</string>
+    <string name="limit_tail_tts">Готовое аудио сохранено; оставшийся текст подготовлен в виде TXT.</string>
+    <plurals name="dur_hours">
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часа</item>
+    </plurals>
+    <plurals name="dur_minutes">
+        <item quantity="one">%1$d минута</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+        <item quantity="other">%1$d минуты</item>
+    </plurals>
+    <plurals name="dur_seconds">
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="few">%1$d секунды</item>
+        <item quantity="many">%1$d секунд</item>
+        <item quantity="other">%1$d секунды</item>
+    </plurals>
+    <string-array name="voice_traits">
+        <item>яркий</item>
+        <item>бодрый</item>
+        <item>информативный</item>
+        <item>твёрдый</item>
+        <item>увлечённый</item>
+        <item>молодой</item>
+        <item>твёрдый</item>
+        <item>лёгкий</item>
+        <item>непринуждённый</item>
+        <item>яркий</item>
+        <item>с придыханием</item>
+        <item>чёткий</item>
+        <item>непринуждённый</item>
+        <item>плавный</item>
+        <item>плавный</item>
+        <item>чёткий</item>
+        <item>хриплый</item>
+        <item>информативный</item>
+        <item>бодрый</item>
+        <item>мягкий</item>
+        <item>твёрдый</item>
+        <item>ровный</item>
+        <item>зрелый</item>
+        <item>напористый</item>
+        <item>дружелюбный</item>
+        <item>обыденный</item>
+        <item>нежный</item>
+        <item>живой</item>
+        <item>знающий</item>
+        <item>тёплый</item>
+    </string-array>
+</resources>

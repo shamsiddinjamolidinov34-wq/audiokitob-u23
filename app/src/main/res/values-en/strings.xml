@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_delete">Delete</string>
+    <string name="ch_progress_name">Audio conversion progress</string>
+    <string name="ch_result_name">Results and errors</string>
+    <string name="main_intro">Converts text or a book into Uzbek audio (MP3). Choose a file or paste text. The work continues in the background, even if you close the app. Scanned (image-based) PDF books are accepted too: they are first turned into text with Gemini (OCR).</string>
+    <string name="main_pick_file">Choose a file (TXT, PDF, EPUB, DOCX, FB2, HTML, ODT)</string>
+    <string name="main_title_hint">Audio name (optional)</string>
+    <string name="main_title_label">For pasted text: audio name (optional)</string>
+    <string name="main_text_hint">Paste the text here</string>
+    <string name="main_text_label">Text</string>
+    <string name="main_text_convert">Convert the pasted text to audio</string>
+    <string name="main_settings">Settings (API keys, voice)</string>
+    <string name="main_journal">Error log</string>
+    <string name="main_jobs_heading">Jobs</string>
+    <string name="main_jobs_hint">Select a job and double-tap — the actions menu opens (resume, save, share, remaining text).</string>
+    <string name="main_jobs_empty">Nothing here yet.</string>
+    <string name="main_keys_none">No API key entered. Enter at least one Gemini API key in “Settings”.</string>
+    <string name="main_keys_count">API keys entered: %1$d (maximum %2$d).</string>
+    <string name="main_journal_none">Error log: no errors recorded.</string>
+    <string name="main_journal_errors">Error log: %1$d errors recorded. Latest: %2$s</string>
+    <string name="dlg_key_title">API key required</string>
+    <string name="dlg_key_msg">First enter at least one Gemini API key in Settings. Open Settings?</string>
+    <string name="dlg_delete_msg">“%1$s” and its audio file will be deleted. Save the audio first. Delete it?</string>
+    <string name="toast_receiving">Receiving the file…</string>
+    <string name="toast_read_failed">Could not read the file: %1$s</string>
+    <string name="toast_paste_first">Paste the text first.</string>
+    <string name="toast_text_empty">The text is empty.</string>
+    <string name="toast_text_failed">Could not accept the text: %1$s</string>
+    <string name="err_open_file">Could not open the file</string>
+    <string name="err_create_file">The file was not created</string>
+    <string name="default_book_title">Book</string>
+    <string name="default_text_title">Text</string>
+    <string name="st_new">Status: not started</string>
+    <string name="st_preparing">Status: preparing the text</string>
+    <string name="st_queued">Status: queued</string>
+    <string name="st_running">Status: converting to audio</string>
+    <string name="st_waiting">Status: waiting</string>
+    <string name="st_paused">Status: paused</string>
+    <string name="st_limit">Status: limit reached</string>
+    <string name="st_done">Status: done</string>
+    <string name="st_failed">Status: error</string>
+    <string name="st_audio_len">Audio length: %1$s (%2$s)</string>
+    <string name="st_position_label">Voiced so far: %1$s, %2$d / %3$d characters</string>
+    <string name="st_position">Voiced so far: %1$d / %2$d characters</string>
+    <string name="st_last_snippet">Last voiced text: “%1$s”</string>
+    <string name="st_skipped">Skipped parts: %1$d</string>
+    <string name="st_remainder_ready">The part that is not yet voiced is ready as TXT (Actions → Remaining text).</string>
+    <string name="st_ocr_partial_ready">The text recognized so far is ready as TXT (Actions → OCR text).</string>
+    <string name="st_preview">Start of the text: “%1$s”</string>
+    <string name="act_pause">Pause</string>
+    <string name="act_resume">Resume</string>
+    <string name="act_start">Start</string>
+    <string name="act_save_audio">Save the audio (%1$s)</string>
+    <string name="act_share_audio">Share the audio</string>
+    <string name="act_play_audio">Play the audio</string>
+    <string name="act_save_rest">Save the remaining text that is not voiced (TXT)</string>
+    <string name="act_share_rest">Share the remaining text (TXT)</string>
+    <string name="act_save_skipped">Save the skipped parts (TXT)</string>
+    <string name="act_save_ocr">Save the recognized (OCR) text (TXT)</string>
+    <string name="act_share_ocr">Share the recognized (OCR) text (TXT)</string>
+    <string name="act_delete">Delete the job</string>
+    <string name="toast_audio_missing">Audio file not found.</string>
+    <string name="chooser_share">Share</string>
+    <string name="toast_share_failed">Could not share: %1$s</string>
+    <string name="toast_no_player">No app found to open the audio. Save it first.</string>
+    <string name="toast_play_failed">Could not play: %1$s</string>
+    <string name="toast_job_missing">Job not found.</string>
+    <string name="toast_no_rest">No unvoiced text is left.</string>
+    <string name="toast_prepare_failed">Could not prepare: %1$s</string>
+    <string name="toast_no_skipped">No skipped parts found.</string>
+    <string name="toast_no_ocr">No recognized text found.</string>
+    <string name="toast_saved">Saved.</string>
+    <string name="toast_save_failed">Could not save: %1$s</string>
+    <string name="skipped_file_suffix">skipped parts</string>
+    <string name="journal_title">Error log</string>
+    <string name="jr_share">Share the log (TXT)</string>
+    <string name="jr_save">Save the log as a TXT file</string>
+    <string name="jr_copy">Copy the log text (clipboard)</string>
+    <string name="jr_refresh">Refresh</string>
+    <string name="jr_selftest">Test the log (add test entries)</string>
+    <string name="jr_clear">Clear the log</string>
+    <string name="jr_heading">Log (latest part)</string>
+    <string name="jr_none">No errors recorded.</string>
+    <string name="jr_count">Errors recorded: %1$d.</string>
+    <string name="jr_last">Latest errors:</string>
+    <string name="jr_note">The log does not contain API keys (they are masked). To send it to the developer, tap “Share the log”.</string>
+    <string name="jr_empty">The log is empty.</string>
+    <string name="jr_toast_prepare_failed">Could not prepare the log file.</string>
+    <string name="jr_chooser">Share the log</string>
+    <string name="jr_toast_saved">The log was saved.</string>
+    <string name="jr_toast_copied">The latest part of the log was copied.</string>
+    <string name="jr_toast_copy_failed">Could not copy.</string>
+    <string name="jr_toast_selftest">Test entries added — the log works.</string>
+    <string name="jr_clear_msg">All log entries will be deleted. Continue?</string>
+    <string name="jr_clear_btn">Clear</string>
+    <string name="jr_clip_label">Audiokitob log</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_note">Important: if you add several keys, create them in different Google projects (or accounts) — the limit is counted per project, not per key. Keys are stored only on this device.</string>
+    <string name="settings_key_label">API key %1$d</string>
+    <string name="settings_key_paste">Paste key %1$d from the clipboard</string>
+    <string name="settings_check_keys">Check the keys</string>
+    <string name="settings_voice">Voice</string>
+    <string name="settings_load_voices">Load Uzbek voices (Gemini voice library)</string>
+    <string name="settings_model">Main TTS model</string>
+    <string name="settings_backup">Backup model (used when the main model’s limit runs out; empty = off)</string>
+    <string name="settings_backup_hint">may be left empty</string>
+    <string name="settings_chunk">Chunk size (characters, 800–6000). A larger chunk means fewer requests but a higher chance of errors</string>
+    <string name="settings_style">Reading style (optional; if left empty the text is read exactly as written, nothing is added)</string>
+    <string name="settings_optional">optional</string>
+    <string name="settings_battery">Battery saver settings (so the work is not interrupted in the background)</string>
+    <string name="settings_save_back">Save and go back</string>
+    <string name="settings_voice_saved">%1$s (saved)</string>
+    <string name="settings_need_key">Enter at least one API key first.</string>
+    <string name="settings_voices_loading">Loading voices…</string>
+    <string name="settings_voices_none">No voices made specifically for Uzbek were found. Use the standard voices (they can read Uzbek text).</string>
+    <string name="settings_voices_loaded">%1$d Uzbek voices loaded (marked with ★ at the top of the list).</string>
+    <string name="settings_voices_failed">Could not load the voices: %1$s</string>
+    <string name="settings_clip_empty">The clipboard is empty.</string>
+    <string name="settings_pasted">Pasted.</string>
+    <string name="settings_paste_failed">Could not paste from the clipboard.</string>
+    <string name="settings_check_need_key">Enter at least one key to check.</string>
+    <string name="settings_checking">Checking…</string>
+    <string name="settings_none_found">none found</string>
+    <string name="settings_check_ok">Key %1$d: works. TTS models: %2$s. OCR (image reading) models: %3$s</string>
+    <string name="settings_check_net">Key %1$d: could not be checked (network): %2$s</string>
+    <string name="settings_check_bad">Key %1$d: invalid or no access (HTTP %2$d): %3$s</string>
+    <string name="settings_open_failed">Could not open the settings.</string>
+    <string name="settings_ocr_heading">Scanned PDF (OCR)</string>
+    <string name="settings_ocr_note">Pages of image-based (scanned) PDFs are turned into text with Gemini Vision. Pages are sent in groups (4 by default); pages that already have digital text are not sent, which saves your limit. The page images are sent to Google’s servers.</string>
+    <string name="settings_ocr_enable">Read scanned PDF pages with AI (OCR)</string>
+    <string name="settings_ocr_model">OCR model (a Gemini model that reads images)</string>
+    <string name="settings_ocr_backup">OCR backup model (used when the main one’s limit runs out; empty = off)</string>
+    <string name="settings_ocr_pages">Pages per request (1–8; recommended: 4)</string>
+    <string name="msg_start_failed">Could not start the background service (%1$s). Open the app and tap “Resume”.</string>
+    <string name="msg_queued">Queued.</string>
+    <string name="msg_unqueued">Removed from the queue (paused).</string>
+    <string name="msg_stopped">Stopped.</string>
+    <string name="msg_preparing">Preparing the text…</string>
+    <string name="notif_working">Converting to audio…</string>
+    <string name="msg_orig_missing">The original file was not found. Choose the file again.</string>
+    <string name="msg_read_failed_x">Could not read the file: %1$s</string>
+    <string name="msg_save_text_failed">Could not save the text (is there enough storage?): %1$s</string>
+    <string name="msg_audio_prev_missing">The previous audio file was not found; only the new part will be written.</string>
+    <string name="msg_text_read_failed">Could not read the text file: %1$s</string>
+    <string name="msg_no_keys">No API key entered. Enter at least one key in Settings.</string>
+    <string name="msg_starting">Starting…</string>
+    <string name="msg_chunk_skipped">One part could not be voiced and was skipped.</string>
+    <string name="msg_3_skipped">Three parts in a row could not be voiced — there may be a problem with the service or the text. Check the error log, then tap “Resume”.</string>
+    <string name="msg_no_model">No working TTS model was found. Check the model name in Settings.</string>
+    <string name="msg_all_keys_dead">All API keys are invalid. %1$s</string>
+    <string name="msg_text">%1$s</string>
+    <string name="msg_wait_internet">No internet — waiting for a connection…</string>
+    <string name="msg_wait_limit">Waiting for the limit: about %1$d seconds…</string>
+    <string name="msg_synth_running">Converting to audio (key %1$d)…</string>
+    <string name="msg_region">Google Gemini API does not work in this location (%1$s). A different network or a paid plan may be required.</string>
+    <string name="msg_net_repeat">The network error kept repeating (%1$s). Check your internet connection and tap “Resume”.</string>
+    <string name="msg_net_retry">Network error, retrying (%1$d/6)…</string>
+    <string name="msg_mp3_fallback">The MP3 encoder failed — the audio is being saved as WAV.</string>
+    <string name="msg_job_deleted">The job was deleted.</string>
+    <string name="msg_mp3_failed">MP3 encoding failed (%1$s). See the log.</string>
+    <string name="msg_audio_write_failed">Could not write to the audio file: %1$s</string>
+    <string name="msg_done">Everything has been voiced.</string>
+    <string name="msg_done_skipped">Everything has been voiced. Skipped parts: %1$d (they can be exported as TXT).</string>
+    <string name="msg_unexpected">Unexpected error: %1$s. See the log.</string>
+    <string name="msg_stale">The app had stopped. Tap “Resume”.</string>
+    <string name="notif_progress">%1$d%% — %2$s of audio</string>
+    <string name="notif_done_title">Done: %1$s</string>
+    <string name="notif_done_text">The audio is ready (%1$s). Open the app to save it.</string>
+    <string name="notif_done_text_skipped">The audio is ready (%1$s). Open the app to save it. Skipped parts: %2$d (they can be exported as TXT).</string>
+    <string name="notif_failed_title">Error: %1$s</string>
+    <string name="notif_limit_title">Limit reached: %1$s</string>
+    <string name="notif_stopped_title">Stopped: %1$s</string>
+    <string name="err_rtf">The RTF format is not supported yet. Convert the file to DOCX or TXT and send it again.</string>
+    <string name="err_doc">The old DOC format is not supported. Convert the file to DOCX or TXT and send it again.</string>
+    <string name="err_mobi">The MOBI/AZW format is not supported. Convert the file to EPUB or TXT and send it again.</string>
+    <string name="err_zip">No familiar format was found inside the ZIP archive. Unpack it and send the file inside.</string>
+    <string name="err_no_text">No readable text was found in the file.</string>
+    <string name="err_binary">The file is not text (it is a binary file) — not supported.</string>
+    <string name="err_pdf_password">The PDF is password-protected — send a copy without a password.</string>
+    <string name="err_pdf_open">Could not open the PDF file: %1$s</string>
+    <string name="err_pdf_empty">No pages were found in the PDF.</string>
+    <string name="err_pdf_scanned">No text was found in the PDF. It is a scanned (image-based) PDF. To read it, “Read scanned PDF pages with AI (OCR)” must be turned on in Settings.</string>
+    <string name="err_pdf_no_text_ocr">No text was found on any page: the AI (OCR) could not extract any either. The pages may be blank or unreadable. See the error log.</string>
+    <string name="warn_pdf_garbled">Warning: the PDF text looks corrupted (a font encoding problem). Listen to the beginning to check it.</string>
+    <string name="warn_pdf_bad_pages">Warning: %1$d pages of the PDF could not be read.</string>
+    <string name="err_epub_container">The EPUB structure is invalid (container.xml is missing).</string>
+    <string name="err_epub_opf_path">The EPUB structure is invalid (the OPF path was not found).</string>
+    <string name="err_epub_opf_missing">The EPUB structure is invalid (the OPF file is missing).</string>
+    <string name="err_epub_spine">The reading order (spine) was not found inside the EPUB.</string>
+    <string name="err_docx_xml">No text (word/document.xml) was found inside the DOCX.</string>
+    <string name="err_odt_xml">content.xml was not found inside the ODT.</string>
+    <string name="err_fb2_missing">No FB2 file was found inside the archive.</string>
+    <string name="prog_pdf">Reading the PDF: page %1$d of %2$d</string>
+    <string name="prog_epub">Reading the EPUB: section %1$d of %2$d</string>
+    <string name="mark_page">page %1$d / %2$d</string>
+    <string name="mark_pages">pages %1$d–%2$d / %3$d</string>
+    <string name="mark_section">section %1$d / %2$d</string>
+    <string name="skip_line_label">[%1$s, character %2$d] reason: %3$s</string>
+    <string name="skip_line">[character %1$d] reason: %2$s</string>
+    <string name="skip_ocr_line">[page %1$d] could not be read with AI (OCR). Reason: %2$s</string>
+    <string name="msg_ocr_progress">AI OCR in progress: pages %1$d–%2$d of %3$d…</string>
+    <string name="msg_ocr_progress_one">AI OCR in progress: page %1$d of %2$d…</string>
+    <string name="msg_ocr_interrupted">%1$s OCR: %2$d of %3$d scanned pages are read and saved. Tap “Resume” and the rest continues from here.</string>
+    <string name="msg_ocr_no_model">No working model for reading images (OCR) was found. Check the OCR model in Settings.</string>
+    <string name="msg_ocr_render_failed">Could not turn the PDF pages into images: %1$s</string>
+    <string name="msg_ocr_unreadable">Warning: %1$d pages could not be read (pages: %2$s). They are not included in the text.</string>
+    <string name="msg_ocr_3_bad">Three pages in a row could not be read — there may be a problem with the service or the document. Check the error log, then tap “Resume”.</string>
+    <string name="msg_ocr_server_busy">The AI server is busy (HTTP %1$d): the main and backup models did not respond after several attempts. This does not mean the pages have no text.</string>
+    <string name="msg_ocr_none_read">The AI (OCR) could not read any page (server, network, limit or another error; the reason is in the error log). This does not mean the pages have no text.</string>
+    <string name="err_pdf_ocr_unread">The AI (OCR) could not read these pages: %1$s. This does not mean they have no text — see the error log and try again later.</string>
+    <string name="limit_no_keys">No API key entered.</string>
+    <string name="limit_head_tts">Voicing is no longer possible with the available keys.</string>
+    <string name="limit_head_ocr">Reading pages (OCR) is no longer possible with the available keys.</string>
+    <string name="limit_key">Key %1$d: %2$s</string>
+    <string name="limit_key_dead">invalid.</string>
+    <string name="limit_key_day">today’s limit is used up.</string>
+    <string name="limit_key_busy">temporarily busy or no access.</string>
+    <string name="limit_reset">The daily limit resets at midnight Pacific time (Los Angeles) — at about %1$s on your device’s clock.</string>
+    <string name="limit_tail_tts">The audio made so far has been saved; the remaining text is ready as TXT.</string>
+    <plurals name="dur_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="dur_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="dur_seconds">
+        <item quantity="one">%1$d second</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+    <string-array name="voice_traits">
+        <item>bright</item>
+        <item>upbeat</item>
+        <item>informative</item>
+        <item>firm</item>
+        <item>excitable</item>
+        <item>youthful</item>
+        <item>firm</item>
+        <item>breezy</item>
+        <item>easy-going</item>
+        <item>bright</item>
+        <item>breathy</item>
+        <item>clear</item>
+        <item>easy-going</item>
+        <item>smooth</item>
+        <item>smooth</item>
+        <item>clear</item>
+        <item>gravelly</item>
+        <item>informative</item>
+        <item>upbeat</item>
+        <item>soft</item>
+        <item>firm</item>
+        <item>even</item>
+        <item>mature</item>
+        <item>forward</item>
+        <item>friendly</item>
+        <item>casual</item>
+        <item>gentle</item>
+        <item>lively</item>
+        <item>knowledgeable</item>
+        <item>warm</item>
+    </string-array>
+</resources>
